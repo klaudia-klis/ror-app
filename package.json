@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "@rails/webpacker": "5.4.4",
+    "bootstrap": "^5.3.0-alpha3",
+    "jquery": "3.6.4",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
