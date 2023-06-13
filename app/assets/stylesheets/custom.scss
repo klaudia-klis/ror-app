@@ -207,3 +207,58 @@ input {
   width: auto;
   margin-left: 0;
 }
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+/* Pagination */
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a, .disabled, .current {
+  color: #337ab7;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active, .current {
+  background-color: #337ab7;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.logout_button {
+  padding: 3px 20px;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.button_delete {
+  display: -webkit-inline-box;
+  color: #337ab7
+}
